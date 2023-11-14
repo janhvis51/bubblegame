@@ -1,4 +1,5 @@
 var rn;
+var c=0;;
 var time = 60;
 function makebubble(){
 var boxes = "";
@@ -27,7 +28,6 @@ setInterval(function run(){
 
 function incscore()
 {
-    var c=0;
     c+=10;
    document.querySelector("#plus").textContent =c;
 }
