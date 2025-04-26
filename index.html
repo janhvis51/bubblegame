@@ -4,28 +4,28 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    
-    <title>Document</title>
+    <title>Bubble Game</title>
 </head>
 <body>
-    <div id = "main">
-        <div id = "panel">
-        <div id = "ptmup">
-            <div class = "elem"><h1>SCORE</h1>
-                <div id ="plus" class = "box"></div>
-            </div>
-            <div class = "elem"><h1>HIT</h1>
-                <div id ="hitval" class = "box"></div>
-            </div>
-            <div class = "elem"><h1>TIME</h1>
-                <div id = "itr" class = "box">7</div>
-            </div>
+    <header>
+        <h1 id="header">Bubble Game</h1>
+    </header>
+    <main class="panel">
+        <div class="panel-top">
+            <div class="hit-number">Hit</div>
+            <div class="timer">Time</div>
+            <div class="score">Score</div>
         </div>
-        <div id = "ptmbottom">
-            <!-- <div class = "bubble">9</div> -->
+        <div class="main-panel">
+            
         </div>
+        <div class="panel-bottom">
+            
         </div>
-    </div>
-    <script type="text/javascript" src="App.js"></script>
+        <div class="panel-control">
+            <button class="btn start-btn">Start Game</button>
+        </div>
+    </main>
+    <script src="App.js"></script>
 </body>
 </html>
